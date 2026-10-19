@@ -1,0 +1,22 @@
+{
+  "name": "zed-endpoint-search",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Source-only Spring endpoint search for Zed",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test --test-concurrency=1 tests/*.test.mjs",
+    "build": "node scripts/build.mjs",
+    "benchmark": "node scripts/benchmark.mjs"
+  },
+  "dependencies": {
+    "chokidar": "4.0.3",
+    "ignore": "7.0.5",
+    "web-tree-sitter": "0.25.10"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.12",
+    "tree-sitter-java": "0.23.5"
+  }
+}

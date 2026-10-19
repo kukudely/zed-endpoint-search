@@ -1,0 +1,14 @@
+id = "endpoint-search"
+name = "Endpoint Search"
+version = "0.1.1"
+schema_version = 1
+authors = ["kukudely"]
+repository = "https://github.com/kukudely/zed-endpoint-search"
+description = "Fast source-only Spring endpoint search. No JVM or Maven import required."
+
+[language_servers.endpoint-search]
+name = "Endpoint Search"
+languages = ["Java"]
+
+[language_servers.endpoint-search.language_ids]
+Java = "java"

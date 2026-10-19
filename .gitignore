@@ -1,0 +1,11 @@
+node_modules/
+target/
+extension.wasm
+.tmp/
+.superpowers/
+*.log
+docs/verification.md
+docs/design.md
+docs/superpowers/
+.env
+.env.*
